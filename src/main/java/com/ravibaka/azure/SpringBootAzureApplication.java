@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class SpringBootAzureApplication {
     @GetMapping("/welcome")
     public String welcome() {
-        return "Your app deployed successfully, Welcome to Azure";
+        return "Your application is deployed successfully! Welcome to Azure!!";
     }
 
     public static void main(String[] args) {
